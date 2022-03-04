@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #140f44;
+}
+
+.Img_Cont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top:25px;
+}
+
+.Img_Cont img{
+    width: 225px;
+    height: 300px;
+    margin-left: 48px;
+    border-radius: 30px;
+}
+
+.TextOne{
+    text-align: center;
+    margin-top: 30px;
+    color: aliceblue;
+    font-size:38px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .Img_Cont{
+        flex-direction: column;
+    }
+
+    .Img_Cont img{
+        margin-bottom:25px;
+    }
+}
